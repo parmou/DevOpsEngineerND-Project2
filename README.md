@@ -1,5 +1,13 @@
 # Udacity DevOps Engineer Nanodegree Project: Deploy a high-availability web app using CloudFormation
 
+## url
+```
+http://devop-webap-bgaaox1orgqg-911770211.ap-south-1.elb.amazonaws.com/
+```
+Images:
+1. url.png - The final URL for the Loadbalancer
+2. ofinaloutput.png - The final page view ( have used my own webpage instead of Udaworks Hope its fine)
+
 Create the network stack:
 ```bash
 bash create_cf_stack.sh devops-nd-project2 network.yml network-parameters.json
